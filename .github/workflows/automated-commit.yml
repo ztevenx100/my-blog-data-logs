@@ -2,7 +2,7 @@ name: Automated Commits
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs every day at 12 PM UTC
+    - cron: '0 0,12 * * *' # Runs twice a day at 12 AM and 12 PM UTC
 
 jobs:
   auto-commit:
